@@ -152,5 +152,17 @@ Font-size: 36px;
 Color: #1F2937;
 font-weight: 300;
 Font-style: italic;
+display: flex;
+gap: 30px;
+padding: 50px 180px;
+flex-direction: column;
 }
 
+.quote-name {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 40px;
+}
