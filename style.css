@@ -11,7 +11,7 @@ img {
 * {
     padding: 0;
     margin: 0;
-    font-family: 
+    
 }
 
 body {
@@ -34,6 +34,34 @@ body {
     padding-bottom: 30px;
     padding-left: 70px;
     padding-right: 70px;
+    gap: 30px;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.action-p {
+    color: lightgray;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.action-btn {
+     border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+
 }
 
 .header {
@@ -49,7 +77,7 @@ body {
 }
 
 .logo {
-    margin-left: -30px;
+    
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -95,11 +123,11 @@ Color: #E5E7EB;
 }
 
 .hero-1-btn {
-    width: 90px;
+    width: 100px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     background-color: #3882F6;
     color: #F9FAF8;
 }
@@ -113,8 +141,8 @@ Color: #E5E7EB;
 color: lightgray;
 display: flex;
 justify-content: center;
-padding-bottom: 15px;
-padding-top: 15px;
+padding-bottom: 25px;
+padding-top: 25px;
 font-size: 10px;
 }
 
