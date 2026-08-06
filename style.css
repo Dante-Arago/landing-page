@@ -6,6 +6,7 @@ img {
 .ghost-dog {
     width: 450px;
     height: 200px;
+    border-radius: 10px;
 }
 
 * {
@@ -60,6 +61,8 @@ body {
     padding-right: 10px;
     padding-top: 3px;
     padding-bottom: 3px;
+    border-radius: 10px;
+    
     
 
 }
@@ -130,6 +133,8 @@ Color: #E5E7EB;
     padding-bottom: 4px;
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 10px;
+
 }
 
 
@@ -166,3 +171,46 @@ flex-direction: column;
     font-weight: bold;
     padding-right: 40px;
 }
+
+.hero-2 {
+    display: flex;
+    width: auto;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 170px;
+}
+
+.card-section {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.hero-2 img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.hero-2-img {
+    display: flex;
+    gap: 25px;
+
+}
+
+.card {
+    
+    text-align: center;
+}
+
+
+
+
+
+
+
